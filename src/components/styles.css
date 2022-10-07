@@ -1,0 +1,61 @@
+.nav {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 2% 10%;
+  margin: auto 1rem auto 1rem;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  width: 77%;
+  align-items: baseline;
+}
+
+.first {
+  color: white;
+  display: flex;
+  align-items: baseline;
+}
+
+.first > ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.first > ul > li {
+  cursor: pointer;
+}
+
+.menu__main {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.menu__main > ul {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  padding: 12%;
+  list-style: none;
+  width: 20rem;
+  font-weight: 400;
+}
+
+.search {
+  width: 30rem;
+  height: 2rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  font-size: 1.25rem;
+}
+
+.searchDiv {
+  position: absolute;
+  top: 26%;
+  left: 34%;
+}
